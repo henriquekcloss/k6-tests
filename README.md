@@ -6,16 +6,16 @@ Load/Stress tests with k6, an example project
 
 - You need to have nodejs and Docker in your environment.
 
-**_Project Structure:_**
+**_Project Structure_**
 
     - The project is structured in a main folder called "tests". Inside the main folder, you will find the folders "support" and "api".
 
 
-        - **_API:_**
+        - **API:**
 
             - Here you will create your files to write your tests.
 
-        - **_Support:_**
+        - **Support:**
 
             - Here you have a file named "requestConfig.js", in this file you should configure all your baseUrls and headers that are default to your requests. You need to configure it according to your APIs and environment;
             - Also, there's a folder named "payloads". Inside this folder you should create your files if you need to use the dataFaker, you can see the example in "createUser.js". It will use the "dataFaker.js" that is already configured using chance.
