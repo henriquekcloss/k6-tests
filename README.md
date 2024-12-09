@@ -4,7 +4,8 @@ Load/Stress tests with k6, an example project
 
 **_How to run the project_**
 
-- You need to have nodejs and Docker in your environment.
+- You need to have nodejs and Docker in your environment;
+- Run the script npm run test.
 
 **_Project Structure_**
 
