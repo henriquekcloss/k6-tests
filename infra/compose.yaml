@@ -1,0 +1,6 @@
+services:
+  k6:
+    image: grafana/k6
+    container_name: k6
+    volumes:
+      - ../dist:/usr/app
