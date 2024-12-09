@@ -1,6 +1,6 @@
 module.exports = {
   mode: "production",
-  entry: { example: "./tests/teste.test.js" },
+  entry: { example: "./tests/api/scaleUpAndDown.test.js" },
   output: {
     path: __dirname + "/dist",
     filename: "[name].test.js",
