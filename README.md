@@ -37,6 +37,6 @@ Load/Stress tests with k6, an example project
 
 **_My test file:_**
 
-- I created a ramp up and down test inside /tests/api, a very common strategy in the payments market. It consists of configuring an exact number of TPS(transaction per second) to run in a certain amount of time to see how the system reacts.
+- I created a ramp-up and down test inside /tests/api, a very common strategy in the payments market. It consists of configuring an exact number of TPS(transactions per second) to run in a certain amount of time to see how the system reacts. Don't you want to know if your services can handle 1.000 TPS on a date such as Black Friday? :)
 
 I hope you learned something here, thanks! :)
